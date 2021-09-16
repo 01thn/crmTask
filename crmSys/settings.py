@@ -20,6 +20,7 @@ INSTALLED_APPS = [
     'companies',
     'person',
     'skills',
+    'user',
     'rest_framework'
 ]
 

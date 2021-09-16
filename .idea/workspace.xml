@@ -5,9 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crmSys/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/crmSys/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crmSys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/crmSys/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/companies/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/person/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skills/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,16 +62,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/skills" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/user" />
       <recent name="$PROJECT_DIR$/skills" />
+      <recent name="$PROJECT_DIR$/person" />
+      <recent name="$PROJECT_DIR$/user" />
       <recent name="$PROJECT_DIR$/person/api" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/crmSys" />
     </key>
   </component>
   <component name="RunManager">

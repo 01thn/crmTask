@@ -8,6 +8,7 @@ django = "==3.2.7"
 psycopg2-binary = "==2.9.1"
 env = "*"
 djangorestframework = "*"
+djangorestframework-simplejwt = "*"
 
 [dev-packages]
 

@@ -9,4 +9,7 @@ urlpatterns = [
     path('api/', include("person.api.urls")),
     path('api/', include("skills.api.urls")),
     path('api/', include("user.api.urls")),
+    path('api-auth', include('rest_framework.urls')),
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.jwt')),
 ]

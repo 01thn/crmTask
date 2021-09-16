@@ -3,35 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="198fed70-0d54-47cf-82b2-253c62e86ea4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/companies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/companies/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/companies/api/api_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/companies/api/api_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/companies/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/companies/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/companies/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/companies/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/companies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/companies/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/companies/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crmSys/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/crmSys/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crmSys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/crmSys/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/person/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person/api/api_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/person/api/api_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/person/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/person/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/person/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/skills/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/api/api_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/skills/api/api_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/skills/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/skills/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/skills/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/api/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/api/api_views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/api/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/api/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

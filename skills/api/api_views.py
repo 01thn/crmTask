@@ -1,10 +1,9 @@
-from rest_framework.generics import ListAPIView
+from rest_framework import viewsets
 
-from .serializers import SkillsSerializer
 from ..models import Skills
+from ..api.serializers import SkillsSerializer
 
 
-class SkillsListAPIView(ListAPIView):
-
+class SkillsViewSet(viewsets.ModelViewSet):
     serializer_class = SkillsSerializer
     queryset = Skills.objects.all()

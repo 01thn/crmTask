@@ -1,4 +1,8 @@
-from django.contrib.auth import get_user_model
+from django.contrib import admin
+from .models import UserModel
 
 
-User = get_user_model()
+@admin.register(UserModel)
+class UserModelAdmin(admin.ModelAdmin):
+    list_display = ('login', 'email', 'last_login',)
+    list_filter = ('login', 'last_login',)

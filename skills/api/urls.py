@@ -1,9 +1,7 @@
-from django.urls import path
+from rest_framework.routers import DefaultRouter
+from .api_views import SkillsViewSet
 
-from .api_views import SkillsListAPIView
 
-
-urlpatterns = [
-    path('skills/', SkillsListAPIView.as_view(), name='skills')
-]
-
+router = DefaultRouter()
+router.register(r'skills', SkillsViewSet, basename='skills')
+urlpatterns = router.urls

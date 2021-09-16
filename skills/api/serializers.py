@@ -4,7 +4,6 @@ from ..models import Skills
 
 
 class SkillsSerializer(serializers.ModelSerializer):
-    knowledge = serializers.CharField(required=True)
 
     class Meta:
         model = Skills

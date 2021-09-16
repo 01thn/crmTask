@@ -1,10 +1,9 @@
-from rest_framework.generics import ListAPIView
+from rest_framework import viewsets
 
-from .serializers import CompaniesSerializer
 from ..models import Companies
+from ..api.serializers import CompaniesSerializer
 
 
-class CompaniesListAPIView(ListAPIView):
-
+class CompaniesViewSet(viewsets.ModelViewSet):
     serializer_class = CompaniesSerializer
     queryset = Companies.objects.all()

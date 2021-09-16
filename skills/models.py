@@ -1,10 +1,12 @@
 from django.db import models
 
+from mixins.ModelMixin import CreatedAt, UpdatedAt, SoftDelete
 
-class Skills(models.Model):
+
+class Skills(CreatedAt, UpdatedAt, SoftDelete):
+    """Model of available skills"""
+
     knowledge = models.CharField(max_length=30)
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
 
     class Meta:
         verbose_name = "Skill"

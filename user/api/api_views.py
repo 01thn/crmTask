@@ -1,10 +1,9 @@
-from rest_framework.generics import ListAPIView
+from rest_framework import viewsets
 
-from .serializers import UserSerializer
 from ..models import UserModel
+from ..api.serializers import UserModelSerializer
 
 
-class UserListAPIView(ListAPIView):
-
-    serializer_class = UserSerializer
+class UserModelViewSet(viewsets.ModelViewSet):
+    serializer_class = UserModelSerializer
     queryset = UserModel.objects.all()

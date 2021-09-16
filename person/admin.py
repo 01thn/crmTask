@@ -4,4 +4,4 @@ from .models import Person
 
 @admin.register(Person)
 class PersonAdmin(admin.ModelAdmin):
-    list_filter = ('updated_at',)
+    list_filter = ('updatedAt',)
